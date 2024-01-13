@@ -60,7 +60,7 @@ replaceText();
 //  STEP 7  ----------------------------------------------
 function findWord() {
     let words = `The quick brown fox jumps over the lazy fox`;
-    let wordChoice = prompt(`Choose a word in the following text: "${words}"`);
+    let wordChoice = prompt(`Choose a word in the following text: \n"${words}"`);
     alert(`The word ${wordChoice} is at position ${words.search(wordChoice)}`);
 }
 findWord();
